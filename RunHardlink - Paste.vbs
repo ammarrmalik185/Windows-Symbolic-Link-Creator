@@ -1,0 +1,2 @@
+Set objShell = CreateObject("WScript.Shell")
+objShell.Run "powershell -NoProfile -ExecutionPolicy Bypass -File ""D:\Projects\Personal\Custom Shell Scripts\HardLink Creator\Paste.ps1"" """ & WScript.Arguments(0) & """", 0, False

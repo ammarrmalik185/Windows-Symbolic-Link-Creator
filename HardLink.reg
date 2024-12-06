@@ -1,0 +1,24 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\HardLink Paste]
+@="Paste Hardlink"
+"Icon"="{{BASE_DIRECTORY}}\\link.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\HardLink Paste\command]
+@="wscript.exe  \"{{BASE_DIRECTORY}}\\RunHardLink - Paste.vbs\" \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\HardLink Paste]
+"Icon"="{{BASE_DIRECTORY}}\\link.ico"
+@="Paste Hardlink"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\HardLink Paste\command]
+@="wscript.exe  \"{{BASE_DIRECTORY}}\\RunHardLink - Paste.vbs\" \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\HardLink Creator]
+@="Create a HardLink here"
+"Icon"="{{BASE_DIRECTORY}}\\link.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\HardLink Creator\command]
+@="wscript.exe  \"{{BASE_DIRECTORY}}\\RunHardLink - Directory.vbs\" \"%V\""
+
+{{BASE_DIRECTORY}} = D:\\Projects\\Personal\\Custom Shell Scripts\\HardLink Creator
