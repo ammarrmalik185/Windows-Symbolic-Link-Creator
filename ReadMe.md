@@ -26,6 +26,8 @@ The scripts are designed to appear in the **Windows 11 context menu**:
 *   **"Create Hardlink"**: Available when right-clicking inside a folder.
 *   **"Paste Hardlink"**: Available when right-clicking inside a folder with a valid clipboard entry.
 
+![image](https://github.com/user-attachments/assets/64693382-7b69-49dc-991f-0d186325e250)
+
 
 Setup Instructions
 ------------------
