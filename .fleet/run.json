@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "Install",
+            "program": "$PROJECT_DIR$/Install.bat"
+        },
+        {
+            "type": "command",
+            "name": "Uninstall",
+            "program": "$PROJECT_DIR$/UnInstall.bat",
+        }
+    ]
+}
